@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 35rem;
+    height: 25rem;
+    display: flex;
+    box-shadow: 0.3rem 0.3rem 0.7rem hsla(234, 85%, 45%, 0.1);
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+/* LEFT SECTION STYLING */
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background:
+        linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 1.5rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.left>span {
+    color: hsl(241, 100%, 89%);
+}
+
+/* SCORE CIRCLE STYLING */
+
+.left .score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    padding: 2.5rem;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score span {
+    color: hsl(241, 100%, 89%);
+    font-size: 0.7rem;
+    opacity: 0.6;
+}
+
+.score h1 {
+    font-size: 2.5rem;
+}
+
+/* LEFT CAPTION STYLING */
+
+.caption {
+    padding: 0 0.7rem;
+}
+
+.caption h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.caption p {
+    color: hsl(241, 100%, 89%);
+    font-weight: normal;
+}
+
+
+/* RIGHT SECTION STYLING */
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.right h2 {
+    font-size: 1.2rem;
+}
+
+
+
+.active {
+    opacity: 0.5;
+}
+
+.right>div {
+    position: relative;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.7rem;
+}
+
+.right>div div {
+    position: absolute;
+    right: 0.7rem;
+    color: hsl(224, 30%, 27%);
+}
+
+.reaction {
+    background: hsla(0, 100%, 67%, 0.08);
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background: hsla(39, 100%, 56%, 0.08);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background: hsla(166, 100%, 37%, 0.08);
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background: hsla(234, 85%, 45%, 0.08);
+    color: hsl(234, 85%, 45%);
+}
+
+
+/* BUTTON STYLING */
+
+button {
+    padding: 0.7rem 1.3rem;
+    border-radius: 2.3rem;
+    color: white;
+    background: hsl(224, 30%, 27%);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
+@media screen and (max-width:450px) {
+
+
+    .card {
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+        width: 40rem;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
