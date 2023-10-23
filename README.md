@@ -11,8 +11,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -27,13 +25,13 @@ Users should be able to:
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
+![screenshot](https://github.com/Uttam-Patel/FM_result_summary_component_responsive/assets/74789656/84154ff7-be20-4c04-8280-7591687b71fe)
 
-![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [View Solution]()
-- Live Site URL: [View Site]()
+- Solution URL: [View Solution](https://github.com/Uttam-Patel/FM_result_summary_component_responsive.git)
+- Live Site URL: [View Site](https://uttam-patel.github.io/FM_result_summary_component_responsive/)
 
 ## My process
 
